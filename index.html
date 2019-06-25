@@ -1,1 +1,54 @@
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY RESUME</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <nav class="navigation-menu">
+        <div class="navigation-menu-toggle js-nav-menu-toggle">
+            <span class="navigation-menu-bars"></span>
+        </div>
+        <ul class="menu-list">
+            <a href="#">
+                <li class="menu-list-item">Home</li>
+            </a>
+
+            <a href="#">
+                <li class="menu-list-item">Profile</li>
+            </a>
+            <a href="#">
+                <li class="menu-list-item">Projects</li>
+            </a>
+            <a href="#">
+                <li class="menu-list-item">Work Experience</li>
+            </a>
+            <a href="#">
+                <li class="menu-list-item">Contact Me</li>
+            </a>
+        </ul>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $('js-nav-menu-toggle').on('click', function () {
+            $(this).parents('.navigation-menu').toggleClass('navigation-menu-open');
+        });
+
+        $('html').on('click', function (e) {
+            if (!$(e.target).closest('.js-nav-menu').length &&
+
+                ($('.js-nav-menu').hasClass('navigation-menu-open'))) {
+                $('.js-nav-menu').removeClass('navigation-menu-open');
+            }
+        });
+</script>
+
+</body>
+
+</html>
