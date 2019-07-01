@@ -6,8 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MY RESUME</title>
     <link rel="stylesheet" href="style/main.css">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
 
+
+</head>
 <body>
     <nav class="navigation-menu">
         <div class="navigation-menu-toggle js-nav-menu-toggle">
@@ -32,11 +38,19 @@
             </a>
         </ul>
     </nav>
+<section id="header">
+    <div class="container text-center">
+        <div class="user-box">
+            <img src="images/Faidat Yusuf.jpg">
+            <h1>Yusuf Faidat</h1>
+            <p>Front-End Web Developer</p>
+            </div>
+    </div>
 
-
+</section>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
-        $('js-nav-menu-toggle').on('click', function () {
+        $('.js-nav-menu-toggle').on('click', function () {
             $(this).parents('.navigation-menu').toggleClass('navigation-menu-open');
         });
 
@@ -47,8 +61,7 @@
                 $('.js-nav-menu').removeClass('navigation-menu-open');
             }
         });
-</script>
-
+    </script>
 </body>
 
 </html>
