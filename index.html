@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,88 +8,213 @@
     <title>MY RESUME</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
-
-
 </head>
 
 <body>
+    <!------------Navigation Menu--------->
     <nav class="navigation-menu">
         <div class="navigation-menu-toggle js-nav-menu-toggle">
             <span class="navigation-menu-bars"></span>
         </div>
         <ul class="menu-list">
-            <a href="#">
+            <a href="#header">
                 <li class="menu-list-item">Home</li>
             </a>
 
-            <a href="#">
+            <a href="#about">
                 <li class="menu-list-item">Profile</li>
+            </a>
+            <a href="#experience">
+                <li class="menu-list-item">Work Experience</li>
             </a>
             <a href="#">
                 <li class="menu-list-item">Projects</li>
             </a>
-            <a href="#">
-                <li class="menu-list-item">Work Experience</li>
-            </a>
-            <a href="#">
+
+            <a href="#contact">
                 <li class="menu-list-item">Contact Me</li>
             </a>
         </ul>
     </nav>
+    <!------------------Header--------->
     <section id="header">
         <div class="container text-center">
-            <div class="user-box">
-                <img src="images/Faidat Yusuf.jpg">
-                <h1>Yusuf Faidat</h1>
-                <p>Front-End Web Developer</p>
+            <div class="row">
+                <div class="user-box">
+                    <img src="images/Faidat Yusuf.jpg">
+                    <h1>Yusuf Faidat</h1>
+                    <p>Front-End Web Developer</p>
+                </div>
             </div>
         </div>
-
     </section>
-    <div class="container about">
+
+    <!--------------Skills and About------------>
+    <div class="container about" id="about">
         <div class="row">
             <div class="col-md-6 text-center">
                 <img src="images/Faidat Yusuf.jpg" class="profile-img">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <h3>Who Am I?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-    <div class="skills-bar">
-        <p>HTML5</p>
-        <div class="progress">
-            <div class="progress-bar" style="width:80%;">80%</div>
-        </div>
+                <p>To obtain an IT position in an organisation where extensive experience and passion for building
+                    interactive experiences and proactive problem solving, adept knowledge of SEO, SEM, JavaScript, CSS,
+                    and HTML will be put to maximum use.</p>
+                <div class="skills-bar">
+                    <p>HTML5</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%;">90%</div>
+                    </div>
 
-        <p>CSS3</p>
-        <div class="progress">
-            <div class="progress-bar" style="width:70%;">70%</div>
-        </div>
-    
-        <p>Corel Draw</p>
-        <div class="progress">
-            <div class="progress-bar" style="width:95%;">95%</div>
-        </div>
-    
-        <p>Photoshop</p>
-        <div class="progress">
-            <div class="progress-bar" style="width:70%;">70%</div>
-        </div>
+                    <p>CSS3</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%;">85%</div>
+                    </div>
 
-        <p>Javascript</p>
-        <div class="progress">
-            <div class="progress-bar" style="width:85%;">85%</div>
+                    <p>UI/UX</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%;">75%</div>
+                    </div>
+
+                    <p>Javascript</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:85%;">80%</div>
+                    </div>
+
+                    <p>Photoshop</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%;">70%</div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-</div>
+    <!-------------End of skills and about---------->
+    <!-------------------Social media icons-->
+    <div class="social-icons">
+        <ul>
+            <a href="https://www.linkedin.com/in/faidat-yusuf">
+                <li><i class="fa fa-linkedin"></i></li>
+            </a>
+            <a href="#">
+                <li><i class="fa fa-facebook"></i></li>
+            </a>
+            <a href="#">
+                <li><i class="fa fa-twitter"></i></li>
+            </a>
+            <a href="https://github.com/faidat">
+                <li><i class="fa fa-github"></i></li>
+            </a>
+        </ul>
     </div>
+    <!-------End of social media icons---------->
 
+    <!-------------Work Experience------------>
+    <section class="experience" id="experience">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-heading text-center">
+                        <h1>Work Experience</h1>
+                        <h6> Past and Current jobs</h6>
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li class="date" data-date=" Sept. 2018-present">
+                                <h1>MindtheGap</h1>
+                                <p>
+                                    Promoted to IT project manager role to plan, schedule and execute all stages of
+                                    Clients web applications implementations.
+                                    Track project performance, specifically to analyze the successful completion of
+                                    short and long-term goals.
+                                </p>
+                            </li>
+                            <li class="date" data-date="Oct. 2017- Sept. 2018">
+                                <h1>MindtheGap</h1>
+                                <p>
+                                        Regulate and manage access rights of different user on websites.
+                                        Ensuring that the web servers, hardware and software are operating accurately.
+                                        Optimize landing pages, squeeze pages, banners, web-based elements to improve conversions, page consumption and engagement.
+                                        
+                                </p>
+                            </li>
+                            <li class="date" data-date="June 2017-Sept 2017">
+                                <h1>IMT</h1>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-------------End of work ecxperience------------>
+
+                <!-------------Education and Certifications-------->
+                <div class="col-md-6">
+                    <div class="section-heading text-center">
+                        <h1>Education</h1>
+                        <h6> and Certifications</h6>
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li class="date" data-date="2011-2015">
+                                <h1>Houdegbe North American University Benin</h1>
+                                <p>
+                                        Bachelor of Science in Computer Science.
+                                </p>
+                            </li>
+                            <li class="date" data-date="2017">
+                                <h1>Google</h1>
+                                <p>
+                                    Certfied in Digital Skills
+                                </p>
+                            </li>
+                            <li class="date" data-date="2018">
+                                <h1>Andela</h1>
+                                <p>
+                                    Certified in Frontend Web development
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!------------------End of education and certifications ---------->
+
+    <!------------------contact---------->
+    <div class="contact" id="contact">
+        <div class="container text-center">
+            <h1>Contact Me</h1>
+            <p class="text-center">Subscribe to my nesletter</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-phone"></i>
+                    <p>+2348166092734</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-internet-explorer"></i>
+                    <p>www.faidatyusuf.com</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope"></i>
+                    <p>faidatyusuf@gmail.com</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+            <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire Me</button>
+        </div>
+    </div>
+    <!------------------------end of contact---------->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
         $('.js-nav-menu-toggle').on('click', function () {
@@ -102,7 +228,7 @@
                 $('.js-nav-menu').removeClass('navigation-menu-open');
             }
         });
-</script>
+    </script>
 </body>
 
 </html>
